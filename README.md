@@ -1,6 +1,4 @@
 # Handball-Arena
-
-Here is a description for your GitHub repository:
 ---
 
 ## Handball Arena
