@@ -16,9 +16,9 @@ Handball Arena is a web application that allows hosts to manage handball matches
 
 ### Tech Stack
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: [Specify backend technology, e.g., Node.js, Django, etc.]
-- **Database**: [Specify database, e.g., MySQL, MongoDB, etc.]
-- **Streaming**: [Specify streaming technology, e.g., WebRTC, RTMP, etc.]
+- **Backend**: PHP, MySql
+- **Database**: MySql
+- **Streaming**: Embedded YouTube
 
 ### Getting Started
 1. Clone the repository
