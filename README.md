@@ -31,7 +31,6 @@ Handball Arena is a web application that allows hosts to manage handball matches
 ### Contributions
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
 
-### License
 ---
 
 Feel free to customize any section further based on your specific implementation and preferences.
