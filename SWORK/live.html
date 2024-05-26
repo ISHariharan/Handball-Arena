@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" href="OTHERS/handball.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap">
+    <script src="https://kit.fontawesome.com/4a665312bb.js" crossorigin="anonymous"></script>
+    <title>HandballHub</title>
+    <style>
+        .intro-container {
+            display: block;
+        }
+        .login a {
+          color: #fff;
+        }
+        
+        .login a:hover {
+          color: #000 !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="DropDownbar">
+      <div class="logo">
+        <img src="OTHERS/logo.png" alt="Logo">
+    </div>
+        <ul>
+            <li><a href="#">Tournament</a>
+                <ul class="sub-dropdown">
+                    <li style="text-align: center;"><a href="#">Inside Chennai</a></li>
+                    <li style="text-align: center;"><a href="#">Outside Chennai</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Handball</a>
+                <ul class="sub-dropdown">
+                    <li style="text-align: center;"><a href="#">History</a></li>
+                    <li style="text-align: center;"><a href="#">Rule & Regulation</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Live Stream</a></li>
+            <li><a href="#">Leagues</a>
+                <ul class="sub-dropdown">
+                    <li style="text-align: center;"><a href="#">International</a></li>
+                    <li style="text-align: center;"><a href="#">National</a></li>
+                    <li style="text-align: center;"><a href="#">State</a></li>
+                    <li style="text-align: center;"><a href="#">Others</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Game Stat</a></li>
+            <li><a href="#">About Us</a></li>
+            <button class="login"><a href="../HTML/login-signin.php" style="text-decoration: none; color: white;">Login</a></button>
+        </ul>
+    </nav>
+    <br> </br>
+    <h4>HANDBALL - LIVE & UPCOMING</h4>
+    <div class="previous">
+        <img id="clickableImage" src="https://i.ytimg.com/vi/TN1PKAvfiLY/maxresdefault.jpg" alt="Click me" class="row_poster">
+        <img id="clickableImage" src="https://v3img.voot.com/v3Storage/assets/handball_tray_live_creative-1685947386203.jpg" alt="Click me" class="row_poster">
+        
+    </div>
+    <h4>HNDBALL PRE-RECORDED MATCHES</h4>
+    <div class="previous">
+      <img id="clickableImage" src="https://open.http.mp.streamamg.com/p/3001394/sp/300139400/thumbnail/entry_id/0_px3d7tm6/width/1920?day=31" alt="Click me" class="row_poster">
+      <img id="clickableImage" src="https://i.ytimg.com/vi/tpfGPz67OAg/maxresdefault.jpg" alt="Click me" class="row_poster">
+      
+  </div>
+
+    <script>
+        const clickableImage = document.getElementById("clickableImage");
+
+clickableImage.addEventListener("click", function() {
+    window.location.href = "live_stream.html";
+});
+
+    </script>
+
+
+    <br> </br>
+    <br> </br>        
+    <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <span class="logo_name"><img src="OTHERS/logo.png" alt="logo"></span>
+            </div>
+            <div class="media-icons">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Company</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Get started</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Services</li>
+              <li><a href="#">App design</a></li>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Logo design</a></li>
+              <li><a href="#">Banner design</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Account</li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">Prefrences</a></li>
+              <li><a href="#">Purchase</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Courses</li>
+              <li><a href="#">HTML & CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+              <li><a href="#">Photography</a></li>
+              <li><a href="#">Photoshop</a></li>
+            </ul>
+            <ul class="box input-box">
+              <li class="link_name">Subscribe</li>
+              <li><input type="text" placeholder="Enter your email"></li>
+              <li><input type="button" value="Subscribe"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2021 <a href="#">HandballHub.</a>All rights reserved</span>
+            <span class="policy_terms">
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & condition</a>
+            </span>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
+
+      
